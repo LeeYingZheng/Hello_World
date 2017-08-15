@@ -1,10 +1,10 @@
-import java.util.*
+import java.util.*;
 
 public class HelloWorld {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()){
-            System.out.print(sc.Next() + ' ');
+            System.out.print(sc.next() + ' ');
         }
     }
 }
